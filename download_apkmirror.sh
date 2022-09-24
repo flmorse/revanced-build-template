@@ -59,7 +59,7 @@ ARM_V7A="arm-v7a"
 
 # Downloading youtube music
 dl_ytm() {
-	local arch=$ARM64_V8A
+	local arch=$ARM_V7A
 	echo "Downloading YouTube Music (${arch})"
 	local last_ver
 	last_ver="$version"
